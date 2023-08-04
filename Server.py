@@ -1,6 +1,6 @@
 import socket
 import threading
-HOST='192.168.1.6'
+HOST='Your IP address'
 PORT =8088
 server=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
